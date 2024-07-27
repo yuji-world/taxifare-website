@@ -99,6 +99,8 @@ with st.form(key='my_form'):
         st.markdown("Your Predicted Fare is :")
         st.write(pred_fare)
 
+        # print(pickup_datetime)
+
 # df = pd.DataFrame(
 #     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
 #     columns=['lat', 'lon'])
